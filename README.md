@@ -1,2 +1,3 @@
 # IQA-TMFM
-Codes will be available soon.
+Network architcture.
+![image](figures/1.png)
