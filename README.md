@@ -1,3 +1,3 @@
 # IQA-TMFM
-Network architcture.
+## Network architcture.
 ![image](figures/1.png)
