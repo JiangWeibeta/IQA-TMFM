@@ -53,7 +53,7 @@ class Discriminator(nn.Module):
 
         pred_logits = (pred_2x_logits + pred_3x_logits) / 2
 
-        pred_logits = pred_logits.reshape(-1, 32)
+        pred_logits = pred_logits.reshape(-1, 4)
         pred_logits = torch.mean(pred_logits, dim=1)
 
         pred = torch.sigmoid(pred_logits)
