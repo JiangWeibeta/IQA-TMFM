@@ -78,12 +78,12 @@ def main():
         if isinstance(layer, nn.Sequential):
             handle = layer.register_forward_hook(save_output)
             hook_handles.append(handle)
-    if args.loss == 'cross_entropy':
-        criterion = nn.CrossEntropyLoss()
-    elif args.loss == 'mse':
-        criterion = nn.MSELoss()
-    else:
-        raise ValueError("Loss not supported")
+#     if args.loss == 'cross_entropy':
+#         criterion = nn.CrossEntropyLoss()
+#     elif args.loss == 'mse':
+#         criterion = nn.MSELoss()
+#     else:
+#         raise ValueError("Loss not supported")
 
     best_loss = float('inf')
     optimizer = optim.Adam(discriminator.parameters(), lr=args.learning_rate, weight_decay=1e-5)
