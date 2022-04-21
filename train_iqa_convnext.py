@@ -87,7 +87,8 @@ def main():
 
     best_loss = float('inf')
     optimizer = optim.Adam(discriminator.parameters(), lr=args.learning_rate, weight_decay=1e-5)
-    scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[4,8], gamma=0.1)
+#     scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[4,8], gamma=0.1)
+    scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=50, eta_min=0)
     if args.checkpoint is not None:
         checkpoint = torch.load(args.checkpoint)
         discriminator.load_state_dict(checkpoint['state_dict'])
