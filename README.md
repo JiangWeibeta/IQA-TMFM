@@ -9,10 +9,10 @@
 ### 3.
 If you find this paper or this repository useful, please cite
 > @InProceedings{Tewel_2022_CVPR,
-    author    = {Tewel, Yoad and Shalev, Yoav and Schwartz, Idan and Wolf, Lior},
-    title     = {ZeroCap: Zero-Shot Image-to-Text Generation for Visual-Semantic Arithmetic},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2022},
-    pages     = {17918-17928}
-}
+>    author    = {Tewel, Yoad and Shalev, Yoav and Schwartz, Idan and Wolf, Lior},
+>    title     = {ZeroCap: Zero-Shot Image-to-Text Generation for Visual-Semantic Arithmetic},
+>    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+>    month     = {June},
+>    year      = {2022},
+>    pages     = {17918-17928}
+> }
