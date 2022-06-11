@@ -8,8 +8,7 @@
 |Accuracy| 0.779 | 0.779 |
 ### 3. 
 If you find this paper or repository useful, please cite.
-> @InProceedings{Jiang_2022_CVPR,
-> 
+> @InProceedings{Jiang_2022_CVPR,  
 >    author    = {Jiang, Wei and Li, Litian and Ma, Yi and Zhai, Yongqi and Yang, Zheng and Wang, Ronggang},
 >    
 >    title     = {Image Quality Assessment With Transformers and Multi-Metric Fusion Modules},
